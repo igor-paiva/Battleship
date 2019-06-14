@@ -1,0 +1,37 @@
+# A Estrutura do objeto a ser alocado no arquivo consiste em: valor da linha,
+# valor da coluna, tipo de embarcação e sua posição para com a tabela
+# Exemplo: 0 0 submarino direita
+# (submarino irá iniciar na posição 0,0 da tabela indo até a posição 0 1,
+# pois um submarino deve ter 2 casas de tamanho e ele irá para a direita)
+
+# player_1
+0 1 canoa nada
+3 7 canoa nada
+8 3 canoa nada
+11 6 canoa nada
+12 0 canoa nada
+12 1 canoa nada
+
+3 1 submarino direita
+3 9 submarino cima
+7 9 submarino esquerda
+12 11 submarino esquerda
+
+7 12 porta-avioes baixo
+5 2 porta-avioes direita
+
+# player_2
+1 1 canoa nada
+1 7 canoa nada
+3 11 canoa nada
+5 1 canoa nada
+10 6 canoa nada
+11 11 canoa nada
+
+3 3 submarino esquerda
+11 4 submarino direita
+0 11 submarino esquerda
+12 0 submarino direita
+
+10 1 porta-avioes cima
+6 12 porta-avioes esquerda
